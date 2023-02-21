@@ -1,0 +1,33 @@
+1 bit = 0 ou 1.
+
+8 bits = 1 byte
+1024 bytes = 1 kilobyte (kb)
+1024 kilobytes = 1 megabyte (mb)
+1024 megabytes = 1 gigabyte (gb)
+1024 gigabytes = 1 terabyte (tb)
+...
+
+- Entendendo ponteiros
+Vamos supor que você declare uma váriável x:
+
+int x;
+// O seu computador vai separar um espaço na
+    memória para essa variável inteira
+
+Continuando, suponhamos que esse endereço na
+memória foi reservado. No caso de uma variável
+inteira, ela reservaria 4 bits na memória.
+
+Então vamos atribuir o valor de 10 a essa 
+variável x:
+
+x = 10;
+// Nesse caso, você está dizendo que você quer
+    atribuir o valor de 10 a variável x, e está
+    alocando esse valor no endereço da memória
+    em que a variável foi armazenada inicialmente.
+
+Ao trabalhar com ponteiros, se você quisesse mudar
+o valor de x de 10 para 100, por exemplo, você
+mudaria o valor que está no endereço da memória,
+e não o valor da variável em si.
