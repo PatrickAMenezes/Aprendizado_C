@@ -1,0 +1,3 @@
+Não é recomendado se utilizar a função gets. 
+O problema dela é que ela não limita a quantidade de caractéres que podem ser inseridos.
+Isso faz com que ela insira na memória RAM do computador qualquer coisa que seja digitada pelo usuário.
